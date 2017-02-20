@@ -4,8 +4,8 @@ Project is a single page app mimicking https://viaplay.se/film/titanic-1997
 
 It is written in React using ES6 + Babel, utilises Viaplay Content API to fetch movie data,
 has different components (Movie, ImdbRating, SimilarMovies, ...) to construct movie page.
-There is a basic routing handling of movie page (film/:filmId route) and the rest of the system.
-
+There is a basic routing handling movie page (film/:filmId route) and the rest of the system.
+Routing is implemented using https://github.com/ReactTraining/react-router.
 
 **Structure**
 
@@ -29,7 +29,7 @@ and asserts movie title and production country
 
 **Design**
 
-* using Twitter Bootstrap (only styles) for as a CSS framework for general styling and resposivness
+* using Twitter Bootstrap (only styles) as a CSS framework for general styling and resposivness
 * using https://react-bootstrap.github.io/ as Bootstrap's javascript adaptation for React
 (that's why bootstrap.js is not present in the project) to have basic Bootstrap js components: Carousel, Navbar, ...
 * using SASS to write styles for components
