@@ -21,6 +21,18 @@ As React does not come with XHR support (as it is pure UI rendering lib). I used
 
 Rest of the components are "dumb" and expect their data externally.
 
+**Bundling**
+
+Using Webpack to bundle project, available commands are:
+* *npm install* - after cloning repo into your machine, run this at first to fetch all dependencies
+* *npm start* - run this to start serving project locally (e.g. http://localhost:8080/film/titanic-1997).
+Applies eslint to project sources.
+* *npm run bundle* - bundles (contact, minify/uglify) entire project into dist/ folder
+* *npm test* - runs all mentioned tests
+* *npm run test -- -u* - over the course of development process you might modify your components under test.
+This might make snapshot tests fail, run this command to update snapshots of all failing tests
+(if you are sure they are not buggy)
+
 **Tests**
 
 * I've written snapshot tests (http://facebook.github.io/jest/docs/snapshot-testing.html#content) 
@@ -35,15 +47,3 @@ and asserts movie title and production country
 (that's why bootstrap.js is not present in the project) to have basic Bootstrap js components: Carousel, Navbar, ...
 * using SASS to write styles for components
 * used mediaqueries to hide movie thumbnail and footer for smaller screens (<~ 1200px)
-
-**Bundling**
-
-Using Webpack to bundle project, available commands are:
-* *npm install* - after cloning repo into your machine, run this at first to fetch all dependencies
-* *npm start* - run this to start serving project locally (e.g. http://localhost:8080/film/titanic-1997).
-Applies eslint to project sources.
-* *npm run bundle* - bundles (contact, minify/uglify) entire project into dist/ folder
-* *npm test* - runs all mentioned tests
-* *npm run test -- -u* - over the course of development process you might modify your components under test.
-This might make snapshot tests fail, run this command to update snapshots of all failing tests
-(if you are sure they are not buggy) 
