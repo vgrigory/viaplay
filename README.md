@@ -17,6 +17,7 @@ laying out movie related component to construct the page.
 "MovieRepository" service is responsible for requesting movie data from Viaplay Content API,
 holds the knowledge about movie data structure and exposes handy get methods,
 which are used by other components (Movie in particular).
+As React does not come with XHR support (as it is pure UI rendering lib). I used https://github.com/github/fetch for that purpose, as it is small, has no other dependencies, has good browser support and serves single purpose.
 
 Rest of the components are "dumb" and expect their data externally.
 
@@ -45,10 +46,4 @@ Applies eslint to project sources.
 * *npm test* - runs all mentioned tests
 * *npm run test -- -u* - over the course of development process you might modify your components under test.
 This might make snapshot tests fail, run this command to update snapshots of all failing tests
-(if you are sure they are not buggy)
-
-**XHR**
-
-React does not come with XHR support (as it is pure UI rendering lib).
-I used https://github.com/github/fetch for that purpose, as it is small,
-has no other dependencies, has good browser support and has single purpose. 
+(if you are sure they are not buggy) 
