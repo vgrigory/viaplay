@@ -1,0 +1,48 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+
+body {
+    background-color: #222;
+    color: white;
+}
+
+
+.sub-container {
+    margin-top: -20px;
+    padding: 40px 15px;
+    text-align: center;
+    min-height: 600px;
+}
+
+.navbar-header {
+    margin-top: -7px;
+    padding-bottom: 7px;
+}
+
+.nav.navbar-nav {
+    li {
+        margin-right: 30px;
+    }
+}
+
+.footer {
+    margin-top: 60px;
+
+    ul {
+        list-style-type: none;
+        text-align: left;
+        font-size: 17px;
+
+        li {
+            margin-bottom: 15px;
+            a {
+                color: white;
+            }
+        }
+    }
+}
+
+@media (max-width:1200px) {
+    .footer {
+        display: none;
+    }
+}

@@ -1,0 +1,39 @@
+.mainInfo {
+    text-align: left;
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .info1 {
+        a {
+            color: white;
+        }
+
+        >span {
+            font-size: 18px;
+            padding: 0 10px 0 10px;
+            border-right: 2px solid white;
+        }
+
+        span:first-child {
+            padding-left: 0;
+        }
+    }
+
+    .info2 {
+        margin-top: 10px;
+        font-size: 12px;
+
+        >span {
+            border: 1px solid white;
+            border-radius: 3px;
+            padding: 3px 8px;
+            margin-right: 10px;
+        }
+
+        >span.flags {
+            text-transform: uppercase;
+        }
+    }
+}

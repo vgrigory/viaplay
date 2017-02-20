@@ -1,0 +1,74 @@
+exports[`test snapsot test for SimilarMovies component 1`] = `
+<div
+  className="carousel slide"
+  onMouseOut={[Function]}
+  onMouseOver={[Function]}>
+  <ol
+    className="carousel-indicators">
+    <li
+      className="active"
+      onClick={[Function]} />
+     
+  </ol>
+  <div
+    className="carousel-inner">
+    <div
+      className="item active">
+      <div
+        className="container">
+        <div
+          className="row">
+          <div
+            className="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+            <a
+              href="/film/titanic-1997">
+              <div
+                className="thumbnail">
+                <img
+                  alt={undefined}
+                  src="some url" />
+              </div>
+            </a>
+          </div>
+          <div
+            className="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+            <a
+              href="/film/the-choice-2016">
+              <div
+                className="thumbnail">
+                <img
+                  alt={undefined}
+                  src="some other url" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a
+    className="carousel-control left"
+    href="#"
+    onClick={[Function]}
+    role="button">
+    <span
+      className="glyphicon glyphicon-chevron-left" />
+    <span
+      className="sr-only">
+      Previous
+    </span>
+  </a>
+  <a
+    className="carousel-control right"
+    href="#"
+    onClick={[Function]}
+    role="button">
+    <span
+      className="glyphicon glyphicon-chevron-right" />
+    <span
+      className="sr-only">
+      Next
+    </span>
+  </a>
+</div>
+`;

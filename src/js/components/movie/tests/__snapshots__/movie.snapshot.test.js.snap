@@ -1,0 +1,11 @@
+exports[`test snapsot test for Movie component 1`] = `
+<div
+  className="noMovieNoCry">
+  Ooops, we\'ll add this movie ASAP. Meanwhile try 
+  <a
+    href="/film/titanic-1997">
+    Titanic
+  </a>
+  .
+</div>
+`;

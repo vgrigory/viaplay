@@ -1,0 +1,20 @@
+.ratingWrapper {
+    margin-top: 55px;
+}
+
+@media (max-width:1100px) {
+    .poster {
+        visibility: hidden;
+    }
+}
+
+.movieWrapper {
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+}
+
+.noMovieNoCry {
+    height: 200px;
+    font-size: 20px;
+    margin-top: 15%;
+}
