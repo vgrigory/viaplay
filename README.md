@@ -10,8 +10,10 @@ There is a basic routing handling of movie page (film/:filmId route) and the res
 **Structure**
 
 "App" component is responsible for general layout of the app, routing config.
+
 "Movie" component is responsible for fetching movie data via MovieRepository,
 laying out movie related component to construct the page.
+
 "MovieRepository" service is responsible for requesting movie data from Viaplay Content API,
 holds the knowledge about movie data structure and exposes handy get methods,
 which are used by other components (Movie in particular).
